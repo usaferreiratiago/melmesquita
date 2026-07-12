@@ -109,13 +109,13 @@ function Sobre() {
             {/* Grid de Benefícios/Tags */}
             <ul className="grid grid-cols-1 gap-3 pt-4 sm:grid-cols-2 target-list">
               {[
-                "CNPJ 00.000.000/0000-00.",
+                "CNPJ 00.000.000/0000-00",
                 "Sede em Coronel Fabriciano/MG",
-                "CRP MG 36127",
-                "Equipe de psicólogos própria",
-                "Acompanhamento psicológico",
-                "Atuação em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
-                "Mais de 200 atendimentos realizados",
+                "Mais de 15 anos criando experiências memoráveis",
+                "Equipe especializada em eventos de alto padrão",
+                "Planejamento, produção e cerimonial completos",
+                "Atendimento em Minas Gerais, em todo o Brasil e internacionalmente",
+                "Centenas de celebrações realizadas com excelência",
               ].map((i) => (
                 <li
                   key={i}
