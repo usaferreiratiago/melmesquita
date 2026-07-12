@@ -101,13 +101,11 @@ function Contato() {
           </motion.div>
         </div>
       </div>
-
       <PageHeader
         eyebrow="— 05 / Contato"
-        title="Está buscando apoio psicológico? Vamos conversar."
-        intro="Conte um pouco sobre o que você está vivendo. Respondemos em até dois dias úteis."
+        title="Vamos transformar o seu evento em um momento inesquecível."
+        intro="Conte-nos como você imagina sua celebração. Será um prazer conhecer seu projeto e preparar uma proposta personalizada para tornar esse momento único."
       />
-
       <section className="py-12 sm:py-16 lg:py-24">
         <div className="mx-auto grid max-w-7xl grid-cols-12 gap-8 px-4 sm:px-6 lg:px-8">
           {/* Informações de Contato e Mapa */}
