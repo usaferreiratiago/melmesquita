@@ -40,10 +40,18 @@ export const Route = createFileRoute()({
 // Mock configurado com os IDs dos vídeos (os títulos servem como fallback inicial)
 const allProjects = [
   {
-    youtubeId: "iOgXmM1SDJE",
+    platform: "iOgXmM1SDJE",
     type: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
     year: "",
     url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
+  },
+  {
+    id: "DSnXbJDkUTo",
+    platform: "instagram",
+    title: "Momentos especiais — Mel Mesquita",
+    type: "Evento",
+    year: "",
+    url: "https://www.instagram.com/p/DSnXbJDkUTo/",
   },
 ];
 
@@ -51,7 +59,8 @@ const ITEMS_PER_PAGE = 5;
 
 // Subcomponente isolado para gerenciar a requisição e o estado do título de cada vídeo
 interface VideoProject {
-  youtubeId: string;
+  id: string;
+  platform: "youtube" | "instagram";
   title: string;
   type: string;
   year: string;
@@ -68,25 +77,23 @@ function VideoRow({
   const [displayTitle, setDisplayTitle] = useState(project.title);
 
   useEffect(() => {
+    if (project.platform !== "youtube") return;
+
     let isMounted = true;
 
     const fetchAutomaticTitle = async () => {
       try {
-        // Faz a chamada para o oEmbed do YouTube sem problemas de CORS no navegador
         const response = await fetch(
-          `https://noembed.com/embed?url=https://www.youtube.com/watch?v=${project.youtubeId}`,
+          `https://noembed.com/embed?url=https://www.youtube.com/watch?v=${project.id}`,
         );
+
         const data = await response.json();
 
-        if (isMounted && data && data.title) {
+        if (isMounted && data?.title) {
           setDisplayTitle(data.title);
         }
       } catch (error) {
-        console.error(
-          `Erro ao buscar o título para o ID ${project.youtubeId}:`,
-          error,
-        );
-        // Em caso de erro, mantém o título estático definido no array (fallback)
+        console.error(`Erro ao buscar o título do vídeo ${project.id}:`, error);
       }
     };
 
@@ -95,7 +102,7 @@ function VideoRow({
     return () => {
       isMounted = false;
     };
-  }, [project.youtubeId]);
+  }, [project.id, project.platform]);
 
   return (
     <div className="grid grid-cols-12 items-center gap-4 sm:gap-6 bg-white dark:bg-zinc-950 py-6 sm:py-8 border-b border-zinc-100 dark:border-zinc-900 last:border-0">
@@ -105,7 +112,7 @@ function VideoRow({
           <iframe
             width="100%"
             height="100%"
-            src={`https://www.youtube.com/embed/${project.youtubeId}`}
+            src={`https://www.youtube.com/embed/${project.platform}`}
             title={displayTitle}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -216,7 +223,7 @@ function Videos() {
 
               return (
                 <motion.div
-                  key={`${p.youtubeId}-${globalIndex}`} // Chave alterada para youtubeId visto que o título é dinâmico
+                  key={`${p.platform}-${globalIndex}`} // Chave alterada para platform visto que o título é dinâmico
                   initial={{ opacity: 0, y: 16 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
