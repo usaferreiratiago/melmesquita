@@ -92,16 +92,18 @@ function Sobre() {
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
                 Mel Mesquita
               </strong>{" "}
-              nasceu em 2011 com uma convicção simples: cuidado em saúde mental
-              é um processo contínuo, que pode transformar vidas ao longo do
-              tempo. Desde então, construímos relações baseadas em escuta,
-              acolhimento e confiança.
+              nasceu com um propósito simples: transformar sonhos em celebrações
+              inesquecíveis. Há mais de 15 anos, criamos eventos que unem
+              elegância, criatividade e emoção, construindo relações de
+              confiança e realizando momentos que permanecem na memória de cada
+              cliente e de seus convidados.
             </p>
             <p className="text-base leading-relaxed text-zinc-600 dark:text-zinc-400 font-medium dark:font-normal">
-              Nossa equipe de psicólogos acompanha cada etapa do atendimento —
-              da avaliação inicial ao processo terapêutico — com o compromisso
-              de oferecer um cuidado ético, humano e responsável, entendendo que
-              cada história merece atenção singular.
+              Nossa equipe acompanha cada etapa da organização do evento — do
+              planejamento inicial à execução de cada detalhe — com dedicação,
+              profissionalismo e um atendimento personalizado. Cada celebração é
+              desenvolvida de forma exclusiva, garantindo uma experiência
+              sofisticada, harmoniosa e verdadeiramente memorável.
             </p>
 
             {/* Grid de Benefícios/Tags */}
