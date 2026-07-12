@@ -43,7 +43,7 @@ const allStaff = [
   {
     img: f5,
     name: "Mel Mesquita",
-    role: "Diretora de Festas e Eventos",
+    role: "Cerimonialista  e Produção de Eventos",
     info: "Esp. em Festas e Eventos • Atendimento presencial e online",
     year: "+15 anos",
   },
