@@ -104,11 +104,13 @@ function Home() {
               transition={{ duration: 0.8, delay: 0.15 }}
               className="mt-8 max-w-xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg font-medium dark:font-normal"
             >
-              +15 anos dedicada ao serviço público e em instituições como APAE,
-              Residência Inclusiva e Clínica particular cuidado em saúde mental
-              no Vale do Aço. Psicologia ética e acolhedora, com escuta
-              qualificada e acompanhamento contínuo, promovendo bem-estar
-              emocional e relações mais saudáveis ao longo do tempo.
+              Há mais de 15 anos criando experiências que unem elegância,
+              sofisticação e exclusividade. Especialista em festas e eventos de
+              alto padrão, desenvolve cada celebração com planejamento
+              personalizado, atenção aos mínimos detalhes e um olhar refinado
+              para transformar sonhos em momentos inesquecíveis. Do conceito à
+              execução, cada evento é conduzido com excelência, cuidado e paixão
+              por surpreender.
             </motion.p>
 
             <motion.div
