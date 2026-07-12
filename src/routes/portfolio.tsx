@@ -21,15 +21,20 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Portfolio — Mel Mesquita" },
+      { title: "Equipe — Mel Mesquita" },
       {
         name: "description",
-        content: "Portfólio de Mel Mesquita.",
+        content:
+          "Conheça a equipe que transforma celebrações em experiências únicas, com excelência, sofisticação e atenção a cada detalhe.",
       },
-      { property: "og:title", content: "portfolio — Mel Mesquita" },
+      {
+        property: "og:title",
+        content: "Equipe — Mel Mesquita | Festas e Eventos de Luxo",
+      },
       {
         property: "og:description",
-        content: "Portfólio que se mede em anos de experiência.",
+        content:
+          "Uma equipe apaixonada por criar eventos exclusivos, elegantes e memoráveis, cuidando de cada detalhe para tornar cada celebração inesquecível.",
       },
     ],
   }),

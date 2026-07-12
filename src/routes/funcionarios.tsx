@@ -22,13 +22,16 @@ export const Route = createFileRoute()({
       {
         name: "description",
         content:
-          "Conheça o corpo técnico e os diretores responsáveis pela excelência operacional da Mel Mesquita no Vale do Aço.",
+          "Conheça a equipe que transforma celebrações em experiências únicas, com excelência, sofisticação e atenção a cada detalhe.",
       },
-      { property: "og:title", content: "Equipe técnica — Mel Mesquita" },
+      {
+        property: "og:title",
+        content: "Equipe — Mel Mesquita | Festas e Eventos de Luxo",
+      },
       {
         property: "og:description",
         content:
-          "Profissionais experientes fazendo o melhor nas Festas e Eventos mais importantes.",
+          "Uma equipe apaixonada por criar eventos exclusivos, elegantes e memoráveis, cuidando de cada detalhe para tornar cada celebração inesquecível.",
       },
     ],
   }),

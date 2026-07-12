@@ -17,20 +17,20 @@ import { PageHeader } from "@/components/page-header";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Serviços — Mel Mesquita" },
+      { title: "Equipe — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Conheça os serviços de psicologia oferecidos pela Mel Mesquita para adolescentes, adultos, casais e famílias.",
+          "Conheça a equipe que transforma celebrações em experiências únicas, com excelência, sofisticação e atenção a cada detalhe.",
       },
       {
         property: "og:title",
-        content: "Serviços de Psicologia — Mel Mesquita",
+        content: "Equipe — Mel Mesquita | Festas e Eventos de Luxo",
       },
       {
         property: "og:description",
         content:
-          "Atendimento psicológico humanizado com foco no bem-estar, saúde mental e qualidade de vida.",
+          "Uma equipe apaixonada por criar eventos exclusivos, elegantes e memoráveis, cuidando de cada detalhe para tornar cada celebração inesquecível.",
       },
     ],
   }),
