@@ -27,7 +27,8 @@ export const Route = createFileRoute()({
       { property: "og:title", content: "Equipe técnica — Mel Mesquita" },
       {
         property: "og:description",
-        content: "Profissionais experientes fazendo o melhor nas Festas e Eventos mais importantes.",
+        content:
+          "Profissionais experientes fazendo o melhor nas Festas e Eventos mais importantes.",
       },
     ],
   }),
