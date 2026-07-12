@@ -67,7 +67,7 @@ function Contato() {
       const text = encodeURIComponent(
         `Olá! Gostaria de fazer um contato comercial.\n\n*Nome:* ${data.nome}\n*E-mail:* ${data.email}\n*Telefone:* ${data.telefone}\n\n*Mensagem:* ${data.mensagem}`,
       );
-      window.open(`https://wa.me/5531988191660?text=${text}`, "_blank");
+      window.open(`https://wa.me/5531?text=${text}`, "_blank");
       reset();
     }
   };
@@ -120,7 +120,7 @@ function Contato() {
           >
             <div className="space-y-6">
               <a
-                href="tel:+5531988191660"
+                href="tel:+5531"
                 className="group flex items-start gap-4 border-b border-zinc-200 dark:border-zinc-800 pb-6 w-full"
               >
                 <Phone
@@ -132,7 +132,7 @@ function Contato() {
                     Telefone
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl text-zinc-900 transition group-hover:text-orange-700 dark:text-zinc-200 dark:group-hover:text-orange-500 truncate">
-                    (31) 98819-1660
+                    (31) 0000-0000
                   </div>
                 </div>
               </a>
