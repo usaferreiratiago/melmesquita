@@ -46,33 +46,33 @@ export const Route = createFileRoute()({
 const allProjects = [
   {
     img: a1,
-    title: "Terapia para adultos",
-    type: "Terapia para adultos",
-    valor: "R$ - Valor",
+    title: "Casamentos",
+    type: "Planejamento e produção de casamentos exclusivos",
+    valor: "Sob consulta",
   },
   {
     img: a2,
-    title: "Terapia para crianças e adolescentes",
-    type: "Terapia para crianças e adolescentes",
-    valor: "R$ - Valor",
+    title: "Festas de 15 Anos",
+    type: "Celebrações personalizadas e inesquecíveis",
+    valor: "Sob consulta",
   },
   {
     img: a3,
-    title: "Avaliação Neuropsicológica",
-    type: "Avaliação Neuropsicológica",
-    valor: "R$ - Valor",
+    title: "Eventos Corporativos",
+    type: "Lançamentos, confraternizações e eventos empresariais",
+    valor: "Sob consulta",
   },
   {
     img: a4,
-    title: "Palestras em Escolas",
-    type: "Palestras em Escolas",
-    valor: "R$ - Valor",
+    title: "Aniversários e Eventos Sociais",
+    type: "Projetos personalizados para todas as celebrações",
+    valor: "Sob consulta",
   },
   {
     img: a5,
-    title: "Vamos trabalhar juntos?",
-    type: "Vamos trabalhar juntos?",
-    valor: "Contate-me",
+    title: "Vamos criar seu evento?",
+    type: "Solicite um orçamento personalizado",
+    valor: "Entre em contato",
   },
 ];
 
