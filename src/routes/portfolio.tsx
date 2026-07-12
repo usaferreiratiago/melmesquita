@@ -122,8 +122,8 @@ function Portfolio() {
 
       <PageHeader
         eyebrow="— 03 / Portfolio"
-        title="Portfólio que se mede em anos de experiência."
-        intro="Uma seleção de nossa história recente. Cada atendimento carrega o mesmo cuidado técnico, acolhimento e empatia."
+        title="Portfólio que se mede em celebrações memoráveis."
+        intro="Conheça alguns dos eventos que refletem nossa dedicação à excelência. Cada projeto é desenvolvido com sofisticação, planejamento personalizado e cuidado em cada detalhe, criando experiências exclusivas que permanecem na memória de clientes e convidados."
       />
 
       <section className="py-12 sm:py-16 lg:py-24 bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
