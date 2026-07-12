@@ -61,13 +61,11 @@ function Sobre() {
           </motion.div>
         </div>
       </div>
-
       <PageHeader
         eyebrow="— 01 / Sobre"
-        title="Psicologia construída por quem compreende o peso de cada história."
-        intro="Fundada em 2011 em Coronel Fabriciano, a Mel Mesquita atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
+        title="Celebrações exclusivas, criadas para marcar histórias."
+        intro="Com mais de 15 anos de experiência no mercado de festas e eventos, a Mel Mesquita transforma ideias em experiências sofisticadas e memoráveis. Cada projeto é desenvolvido com planejamento personalizado, excelência na execução e um olhar atento aos mínimos detalhes, tornando cada ocasião verdadeiramente única."
       />
-
       {/* Seção com suporte completo a cores adaptáveis */}
       <section className="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 py-12 sm:py-20 lg:py-28 transition-colors duration-300">
         <div className="mx-auto grid max-w-7xl grid-cols-12 gap-6 sm:gap-10 px-4 sm:px-6 lg:px-8">
