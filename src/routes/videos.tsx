@@ -214,9 +214,9 @@ function Videos() {
         </div>
       </div>
       <PageHeader
-        eyebrow="— 07 / Videos"
-        title="Cuidar da saúde mental é um passo importante para o bem-estar."
-        intro="Conheça os serviços de psicologia oferecidos pela Mel Mesquita. Atendimentos humanizados, baseados em evidências e voltados ao desenvolvimento emocional, ao acolhimento e à promoção da qualidade de vida."
+        eyebrow="— 07 / Vídeos"
+        title="Inspiração para celebrações únicas e memoráveis."
+        intro="Explore nossos vídeos e descubra como transformamos sonhos em eventos exclusivos. Casamentos, aniversários, eventos corporativos e celebrações planejadas com sofisticação, criatividade e atenção a cada detalhe."
       />
       <section className="py-12 sm:py-16 lg:py-24 bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
