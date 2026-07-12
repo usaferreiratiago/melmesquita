@@ -27,7 +27,7 @@ export const Route = createFileRoute()({
       { property: "og:title", content: "Equipe técnica — Mel Mesquita" },
       {
         property: "og:description",
-        content: "Profissionais experientes construindo o futuro da região.",
+        content: "Profissionais experientes fazendo o melhor nas Festas e Eventos mais importantes.",
       },
     ],
   }),
@@ -39,8 +39,8 @@ const allStaff = [
   {
     img: f5,
     name: "Mel Mesquita",
-    role: "Psicóloga",
-    info: "Esp. em Terapia Cognitiva e Comportamental, Neuropsicóloga, Palestrante Clínica • Atendimento presencial e online",
+    role: "Diretora de Festas e Eventos",
+    info: "Esp. em Festas e Eventos • Atendimento presencial e online",
     year: "+15 anos",
   },
   // {
