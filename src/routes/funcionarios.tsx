@@ -38,7 +38,7 @@ export const Route = createFileRoute()({
 const allStaff = [
   {
     img: f5,
-    name: "Shirley Ribeiro Paschoal",
+    name: "Mel Mesquita",
     role: "Psicóloga",
     info: "Esp. em Terapia Cognitiva e Comportamental, Neuropsicóloga, Palestrante Clínica • Atendimento presencial e online",
     year: "+15 anos",

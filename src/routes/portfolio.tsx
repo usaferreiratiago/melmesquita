@@ -21,12 +21,12 @@ import logoImg from "@/assets/senoengenharia.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Portfolio — Shirley Ribeiro Paschoal" },
+      { title: "Portfolio — Mel Mesquita" },
       {
         name: "description",
-        content: "Portfólio de Shirley Ribeiro Paschoal.",
+        content: "Portfólio de Mel Mesquita.",
       },
-      { property: "og:title", content: "portfolio — Shirley Ribeiro Paschoal" },
+      { property: "og:title", content: "portfolio — Mel Mesquita" },
       {
         property: "og:description",
         content: "Portfólio que se mede em anos de experiência.",
