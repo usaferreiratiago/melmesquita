@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -14,8 +13,8 @@ export function SiteHeader() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <Link
-          to="/"
+        <a
+          href="/"
           className="flex items-baseline gap-2"
           onClick={() => setOpen(false)}
         >
@@ -25,27 +24,22 @@ export function SiteHeader() {
           <span className="text-xs uppercase tracking-[0.25em] text-stone">
             Mel Mesquita
           </span>
-        </Link>
+        </a>
         <nav className="hidden items-center gap-10 text-sm text-foreground/70 md:flex">
           {links.map((l) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              className="transition hover:text-ink"
-              activeProps={{ className: "text-ink" }}
-            >
+            <a key={l.to} href={l.to} className="transition hover:text-ink">
               {l.label}
-            </Link>
+            </a>
           ))}
         </nav>
         <div className="flex items-center gap-3">
-          <Link
-            to="/contato"
+          <a
+            href="/contato"
             className="group hidden items-center gap-2 rounded-sm bg-ink px-4 py-2 text-sm text-primary-foreground transition hover:bg-terracotta md:inline-flex"
           >
             Contato
             <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </Link>
+          </a>
           <button
             aria-label="Abrir menu"
             onClick={() => setOpen((v) => !v)}
@@ -59,22 +53,22 @@ export function SiteHeader() {
         <nav className="border-t border-border bg-background md:hidden">
           <div className="mx-auto flex max-w-7xl flex-col px-6 py-4 lg:px-10">
             {links.map((l) => (
-              <Link
+              <a
                 key={l.to}
-                to={l.to}
+                href={l.to}
                 onClick={() => setOpen(false)}
                 className="border-b border-border py-3 text-sm text-foreground/80"
               >
                 {l.label}
-              </Link>
+              </a>
             ))}
-            <Link
-              to="/contato"
+            <a
+              href="/contato"
               onClick={() => setOpen(false)}
               className="mt-4 inline-flex items-center justify-center gap-2 rounded-sm bg-ink px-4 py-3 text-sm text-primary-foreground"
             >
               Contato <ArrowUpRight className="h-4 w-4" />
-            </Link>
+            </a>
           </div>
         </nav>
       )}
