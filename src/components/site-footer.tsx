@@ -5,7 +5,7 @@ export function SiteFooter() {
         <div className="grid grid-cols-1 gap-8 border-t border-border pt-10 md:grid-cols-3">
           <div>
             <div className="flex items-baseline gap-3">
-              <span className="font-display text-lg font-semibold text-ink">INSIGHT CLINICA</span>
+              <span className="font-display text-lg font-semibold text-ink">MEL MESQUITA</span>
               <span className="text-xs uppercase tracking-[0.25em] text-stone">
                 Engenharia · Desde 2011
               </span>

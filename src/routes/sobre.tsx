@@ -81,7 +81,7 @@ function Sobre() {
           >
             <img
               src={aboutImg}
-              alt="Equipe Insight Clinicarevisando projetos"
+              alt="Equipe MEL MESQUITArevisando projetos"
               loading="lazy"
               className="aspect-4/3 w-full object-cover rounded-sm shadow-sm dark:opacity-90"
             />
