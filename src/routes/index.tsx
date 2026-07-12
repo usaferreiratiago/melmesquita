@@ -91,12 +91,12 @@ function Home() {
               }}
               className="font-display text-[clamp(2.75rem,8vw,7rem)] font-medium leading-[0.95] text-zinc-900 dark:text-zinc-50 tracking-tight"
             >
-              Foco em
+              Experiências
               <br />
               <span className="italic font-light text-orange-700 dark:text-orange-500">
-                Solidez
+                Sonhos
               </span>{" "}
-              &amp; Evolução.
+              &amp; Memórias
             </motion.h1>
 
             <motion.p
@@ -140,10 +140,10 @@ function Home() {
           <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-zinc-200 dark:divide-zinc-800 md:grid-cols-4">
             {[
               { k: "+15", l: "anos de atendimento" },
-              { k: "+5500", l: "atendimentos realizados" },
+              { k: "+5500", l: "Festas e Eventos realizados" },
               {
                 k: "MG",
-                l: "MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa.",
+                l: "MG, em todo o Brasil, Estados Unidos e Europa.",
               },
               { k: "100%", l: "prazo cumprido" },
             ].map((s) => (
