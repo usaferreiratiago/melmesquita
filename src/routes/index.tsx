@@ -183,7 +183,7 @@ function Home() {
             {
               to: "/clientes",
               n: "04",
-              t: "Pacientes",
+              t: "Clientes",
               d: "O que dizem sobre o atendimento da Mel Mesquita.",
             },
             {
