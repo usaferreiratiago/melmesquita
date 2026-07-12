@@ -1,12 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import {
-  Brain,
+  PartyPopper,
+  Sparkles,
+  Cake,
+  Gift,
+  Trophy,
+  Star,
   Heart,
-  Users,
-  MessageCircle,
-  ShieldCheck,
-  ClipboardList,
+  Smile,
   ArrowLeft,
 } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
@@ -40,34 +42,34 @@ export const Route = createFileRoute()({
 
 const services = [
   {
-    icon: Brain,
-    title: "Avaliação psicológica",
-    desc: "Processo inicial de escuta e compreensão das demandas emocionais, comportamentais e cognitivas do paciente.",
+    icon: PartyPopper,
+    title: "Planejamento de eventos",
+    desc: "Desenvolvimento completo do projeto, definição do conceito, cronograma, orçamento e organização de cada etapa da celebração.",
   },
   {
-    icon: Heart,
-    title: "Psicoterapia individual",
-    desc: "Atendimento clínico focado no autoconhecimento, regulação emocional e desenvolvimento pessoal.",
+    icon: Sparkles,
+    title: "Casamentos",
+    desc: "Planejamento e coordenação de casamentos personalizados, transformando sonhos em momentos inesquecíveis com elegância e sofisticação.",
   },
   {
-    icon: Users,
-    title: "Terapia familiar",
-    desc: "Acompanhamento de famílias para melhorar comunicação, vínculos e resolução de conflitos.",
+    icon: Cake,
+    title: "Festas sociais",
+    desc: "Organização de aniversários, debutantes, bodas e outras celebrações, sempre com atenção aos detalhes e experiências memoráveis.",
   },
   {
-    icon: MessageCircle,
-    title: "Aconselhamento psicológico",
-    desc: "Suporte breve para momentos de crise, decisões difíceis e orientação emocional.",
+    icon: Gift,
+    title: "Consultoria para eventos",
+    desc: "Orientação especializada para quem deseja planejar seu evento com segurança, criatividade e excelência na execução.",
   },
   {
-    icon: ShieldCheck,
-    title: "Saúde mental preventiva",
-    desc: "Estratégias de cuidado e prevenção para reduzir riscos de sofrimento psíquico e promover bem-estar.",
+    icon: Trophy,
+    title: "Coordenação no dia do evento",
+    desc: "Acompanhamento completo durante a celebração, garantindo que cada fornecedor e cada detalhe aconteçam conforme o planejado.",
   },
   {
-    icon: ClipboardList,
-    title: "Acompanhamento terapêutico",
-    desc: "Planejamento e monitoramento contínuo do processo terapêutico com foco em evolução clínica.",
+    icon: Smile,
+    title: "Eventos corporativos",
+    desc: "Planejamento e produção de eventos empresariais, lançamentos, confraternizações e experiências que fortalecem a imagem da sua marca.",
   },
 ];
 
@@ -79,7 +81,7 @@ function Servicos() {
         <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-zinc-100 dark:border-zinc-900 pb-6">
           {/* Botão Voltar para Tela Inicial */}
           <Link
-            to="/"
+            to=".."
             className="group inline-flex items-center justify-center sm:justify-start gap-2 text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50 transition-colors py-2 sm:py-0"
           >
             <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
@@ -104,8 +106,8 @@ function Servicos() {
 
       <PageHeader
         eyebrow="— 02 / Serviços"
-        title="Do acolhimento ao cuidado contínuo."
-        intro="Atendimento psicológico integrado. Você fala com uma equipe de psicólogos, desde o primeiro contato até o acompanhamento terapêutico contínuo."
+        title="Celebrações planejadas com excelência em cada detalhe."
+        intro="Planejamento, produção e coordenação de eventos exclusivos, desenvolvidos de forma personalizada para proporcionar experiências elegantes, memoráveis e perfeitamente executadas."
       />
 
       {/* Seção de serviços adaptável para Light e Dark Mode */}
