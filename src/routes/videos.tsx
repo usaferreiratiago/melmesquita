@@ -40,8 +40,10 @@ export const Route = createFileRoute()({
 // Mock configurado com os IDs dos vídeos (os títulos servem como fallback inicial)
 const allProjects = [
   {
-    platform: "iOgXmM1SDJE",
-    type: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
+    id: "iOgXmM1SDJE",
+    platform: "youtube",
+    title: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
+    type: "Evento",
     year: "",
     url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
   },
@@ -108,17 +110,29 @@ function VideoRow({
     <div className="grid grid-cols-12 items-center gap-4 sm:gap-6 bg-white dark:bg-zinc-950 py-6 sm:py-8 border-b border-zinc-100 dark:border-zinc-900 last:border-0">
       {/* Coluna do Player do YouTube Responsivo (16:9) */}
       <div className="col-span-12 md:col-span-5">
-        <div className="w-full aspect-video rounded-sm overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-xs">
-          <iframe
-            width="100%"
-            height="100%"
-            src={`https://www.youtube.com/embed/${project.platform}`}
-            title={displayTitle}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            className="w-full h-full border-0"
-          />
-        </div>
+        {project.platform === "youtube" ? (
+          <div className="w-full aspect-video rounded-sm overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-xs">
+            <iframe
+              width="100%"
+              height="100%"
+              src={`https://www.youtube.com/embed/${project.id}?rel=0&modestbranding=1`}
+              title={displayTitle}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="w-full h-full border-0"
+            />
+          </div>
+        ) : (
+          <div className="w-full max-w-sm mx-auto aspect-4/5 rounded-sm overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 shadow-xs">
+            <iframe
+              src={`https://www.instagram.com/p/${project.id}/embed`}
+              title={displayTitle}
+              allow="autoplay; clipboard-write; encrypted-media"
+              scrolling="no"
+              className="w-full h-full border-0"
+            />
+          </div>
+        )}
       </div>
 
       {/* Coluna do Número */}
