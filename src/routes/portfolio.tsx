@@ -7,11 +7,12 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { useState } from "react";
-import a1 from "@/assets/aval-1.png";
-import a2 from "@/assets/aval-2.png";
-import a3 from "@/assets/aval-3.png";
-import a4 from "@/assets/aval-4.png";
-import a5 from "@/assets/aval-5.png";
+import a1 from "@/assets/event-1.jpg";
+import a2 from "@/assets/event-2.jpg";
+import a3 from "@/assets/event-3.jpg";
+import a4 from "@/assets/event-4.jpg";
+import a5 from "@/assets/event-5.jpg";
+import a6 from "@/assets/event-6.jpg";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
