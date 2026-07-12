@@ -45,12 +45,6 @@ const allProjects = [
     year: "",
     url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
   },
-  {
-    youtubeId: "iOgXmM1SDJE",
-    type: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
-    year: "",
-    url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
-  },
 ];
 
 const ITEMS_PER_PAGE = 5;
