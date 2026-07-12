@@ -9,15 +9,15 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Pacientes — Insight Clínica" },
+      { title: "Pacientes — Mel Mesquita" },
       {
         name: "description",
-        content: "Depoimentos de pacientes atendidos pela Insight Clínica.",
+        content: "Depoimentos de pacientes atendidos pela Mel Mesquita.",
       },
-      { property: "og:title", content: "Pacientes — Insight Clínica" },
+      { property: "og:title", content: "Pacientes — Mel Mesquita" },
       {
         property: "og:description",
-        content: "O que dizem sobre o atendimento da Insight Clínica.",
+        content: "O que dizem sobre o atendimento da Mel Mesquita.",
       },
     ],
   }),
@@ -26,7 +26,7 @@ export const Route = createFileRoute()({
 
 const testimonials = [
   {
-    q: "A equipe da Insight Clínica nos ajudou a atravessar um momento difícil com muita escuta, cuidado e profissionalismo. Saímos mais fortalecidos emocionalmente.",
+    q: "A equipe da Mel Mesquita nos ajudou a atravessar um momento difícil com muita escuta, cuidado e profissionalismo. Saímos mais fortalecidos emocionalmente.",
     a: "Marcos Souza",
     r: "Paciente · Vale do Aço",
   },
@@ -81,7 +81,7 @@ function Pacientes() {
           >
             {/* <img
               src={logoImg}
-              alt="Insight Clínica Logo"
+              alt="Mel Mesquita Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             /> */}
           </motion.div>
@@ -90,8 +90,8 @@ function Pacientes() {
 
       <PageHeader
         eyebrow="— 04 / Pacientes"
-        title="O que dizem sobre a atuação da Insight Clínica."
-        intro="Pacientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Insight Clínica."
+        title="O que dizem sobre a atuação da Mel Mesquita."
+        intro="Pacientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Mel Mesquita."
       />
 
       <section className="bg-zinc-50 dark:bg-zinc-900/40 py-12 sm:py-16 lg:py-28 text-zinc-900 dark:text-zinc-50 transition-colors duration-300">

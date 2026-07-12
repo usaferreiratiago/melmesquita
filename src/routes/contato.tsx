@@ -20,13 +20,13 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Contato — Insight Clínica" },
+      { title: "Contato — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Solicite orçamento ou tire dúvidas com a equipe da Insight Clínica em Coronel Fabriciano/MG.",
+          "Solicite orçamento ou tire dúvidas com a equipe da Mel Mesquita em Coronel Fabriciano/MG.",
       },
-      { property: "og:title", content: "Fale com a Insight Clínica" },
+      { property: "og:title", content: "Fale com a Mel Mesquita" },
       {
         property: "og:description",
         content: "Solicite orçamento ou tire dúvidas.",
@@ -95,7 +95,7 @@ function Contato() {
           >
             {/* <img
               src={logoImg}
-              alt="Insight Clínica Logo"
+              alt="Mel Mesquita Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             /> */}
           </motion.div>

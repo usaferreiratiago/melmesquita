@@ -7,7 +7,7 @@ import heroImg from "@/assets/melmesquita.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Insight Clínica — +15 anos de atendimento" },
+      { title: "Mel Mesquita — +15 anos de atendimento" },
       {
         name: "description",
         content:
@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Insight Clínica — Projetos e Construções",
+        content: "Mel Mesquita — Projetos e Construções",
       },
       {
         property: "og:description",
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "GeneralContractor",
-          name: "Insight Clínica Projetos Construções LTDA - ME",
+          name: "Mel Mesquita Projetos Construções LTDA - ME",
           taxID: "20.853.842/0001-01",
           foundingDate: "2011",
           address: {
@@ -63,7 +63,7 @@ function Home() {
         <div className="absolute inset-0">
           <img
             src={heroImg}
-            alt="Insight Clínica"
+            alt="Mel Mesquita"
             width={1920}
             height={1080}
             className="h-full w-full object-cover"
@@ -181,16 +181,16 @@ function Home() {
               d: "Portfólio Avaliativo.",
             },
             {
-              to: "/pacientes",
+              to: "/clientes",
               n: "04",
               t: "Pacientes",
-              d: "O que dizem sobre o atendimento da Insight Clínica.",
+              d: "O que dizem sobre o atendimento da Mel Mesquita.",
             },
             {
               to: "/funcionarios",
               n: "05",
               t: "Funcionários",
-              d: "Conheça a equipe por trás das portfolio da Insight Clínica.",
+              d: "Conheça a equipe por trás das portfolio da Mel Mesquita.",
             },
             {
               to: "/contato",

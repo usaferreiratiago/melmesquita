@@ -18,13 +18,13 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Equipe — Insight Clínica" },
+      { title: "Equipe — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Conheça o corpo técnico e os diretores responsáveis pela excelência operacional da Insight Clínica no Vale do Aço.",
+          "Conheça o corpo técnico e os diretores responsáveis pela excelência operacional da Mel Mesquita no Vale do Aço.",
       },
-      { property: "og:title", content: "Equipe técnica — Insight Clínica" },
+      { property: "og:title", content: "Equipe técnica — Mel Mesquita" },
       {
         property: "og:description",
         content: "Profissionais experientes construindo o futuro da região.",
@@ -93,7 +93,7 @@ function Funcionarios() {
           >
             {/* <img
               src={logoImg}
-              alt="Insight Clínica Logo"
+              alt="Mel Mesquita Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             /> */}
           </motion.div>

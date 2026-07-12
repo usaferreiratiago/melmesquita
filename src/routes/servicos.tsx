@@ -18,15 +18,15 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Serviços — Insight Clínica" },
+      { title: "Serviços — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
+          "Conheça os serviços de psicologia oferecidos pela Mel Mesquita para adolescentes, adultos, casais e famílias.",
       },
       {
         property: "og:title",
-        content: "Serviços de Psicologia — Insight Clínica",
+        content: "Serviços de Psicologia — Mel Mesquita",
       },
       {
         property: "og:description",
@@ -95,7 +95,7 @@ function Servicos() {
           >
             {/* <img
               src={logoImg}
-              alt="Insight Clínica Logo"
+              alt="Mel Mesquita Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             /> */}
           </motion.div>

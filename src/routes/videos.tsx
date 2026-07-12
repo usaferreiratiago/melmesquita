@@ -17,15 +17,15 @@ import { PageHeader } from "@/components/page-header";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Serviços — Insight Clínica" },
+      { title: "Serviços — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
+          "Conheça os serviços de psicologia oferecidos pela Mel Mesquita para adolescentes, adultos, casais e famílias.",
       },
       {
         property: "og:title",
-        content: "Serviços de Psicologia — Insight Clínica",
+        content: "Serviços de Psicologia — Mel Mesquita",
       },
       {
         property: "og:description",
@@ -41,25 +41,25 @@ export const Route = createFileRoute()({
 const allProjects = [
   {
     youtubeId: "zuTv_UHpHAE",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Serviços de Psicologia — Mel Mesquita",
     year: "",
     url: "https://www.youtube.com/watch?v=zuTv_UHpHAE",
   },
   {
     youtubeId: "VB3fuorXuOg",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Serviços de Psicologia — Mel Mesquita",
     year: "",
     url: "https://www.youtube.com/watch?v=VB3fuorXuOg",
   },
   {
     youtubeId: "QxIs9AUxSyY",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Serviços de Psicologia — Mel Mesquita",
     year: "",
     url: "https://www.youtube.com/watch?v=QxIs9AUxSyY",
   },
   {
     youtubeId: "XAtZe--6DVI",
-    type: "Serviços de Psicologia — Insight Clínica",
+    type: "Serviços de Psicologia — Mel Mesquita",
     year: "",
     url: "https://www.youtube.com/watch?v=XAtZe--6DVI",
   },
@@ -216,7 +216,7 @@ function Videos() {
       <PageHeader
         eyebrow="— 07 / Videos"
         title="Cuidar da saúde mental é um passo importante para o bem-estar."
-        intro="Conheça os serviços de psicologia oferecidos pela Insight Clínica. Atendimentos humanizados, baseados em evidências e voltados ao desenvolvimento emocional, ao acolhimento e à promoção da qualidade de vida."
+        intro="Conheça os serviços de psicologia oferecidos pela Mel Mesquita. Atendimentos humanizados, baseados em evidências e voltados ao desenvolvimento emocional, ao acolhimento e à promoção da qualidade de vida."
       />
       <section className="py-12 sm:py-16 lg:py-24 bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 transition-colors duration-300">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

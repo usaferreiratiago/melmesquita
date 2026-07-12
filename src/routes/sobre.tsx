@@ -11,15 +11,15 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Serviços — Insight Clínica" },
+      { title: "Serviços — Mel Mesquita" },
       {
         name: "description",
         content:
-          "Conheça os serviços de psicologia oferecidos pela Insight Clínica para adolescentes, adultos, casais e famílias.",
+          "Conheça os serviços de psicologia oferecidos pela Mel Mesquita para adolescentes, adultos, casais e famílias.",
       },
       {
         property: "og:title",
-        content: "Serviços de Psicologia — Insight Clínica",
+        content: "Serviços de Psicologia — Mel Mesquita",
       },
       {
         property: "og:description",
@@ -55,7 +55,7 @@ function Sobre() {
           >
             {/* <img
               src={logoImg}
-              alt="Insight Clínica Logo"
+              alt="Mel Mesquita Logo"
               className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 dark:brightness-110 dark:contrast-105"
             /> */}
           </motion.div>
@@ -65,7 +65,7 @@ function Sobre() {
       <PageHeader
         eyebrow="— 01 / Sobre"
         title="Psicologia construída por quem compreende o peso de cada história."
-        intro="Fundada em 2011 em Coronel Fabriciano, a Insight Clínica atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
+        intro="Fundada em 2011 em Coronel Fabriciano, a Mel Mesquita atua no cuidado em saúde mental, atendendo pessoas, famílias e instituições do Vale do Aço com escuta qualificada, ética e acolhimento desde o primeiro dia."
       />
 
       {/* Seção com suporte completo a cores adaptáveis */}
@@ -92,7 +92,7 @@ function Sobre() {
             <p className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-lg">
               A{" "}
               <strong className="text-zinc-900 font-semibold dark:text-zinc-50">
-                Insight Clínica
+                Mel Mesquita
               </strong>{" "}
               nasceu em 2011 com uma convicção simples: cuidado em saúde mental
               é um processo contínuo, que pode transformar vidas ao longo do
