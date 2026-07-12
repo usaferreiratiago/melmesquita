@@ -26,34 +26,34 @@ export const Route = createFileRoute()({
 
 const testimonials = [
   {
-    q: "A equipe da Mel Mesquita nos ajudou a atravessar um momento difícil com muita escuta, cuidado e profissionalismo. Saímos mais fortalecidos emocionalmente.",
+    q: "A Mel Mesquita superou todas as nossas expectativas. Cada detalhe foi cuidadosamente planejado e nosso casamento ficou exatamente como sempre sonhamos.",
     a: "Marcos Souza",
-    r: "Paciente · Vale do Aço",
+    r: "Noivo · Belo Horizonte/MG",
   },
   {
-    q: "O acompanhamento psicológico fez toda a diferença para nossa família. Cada sessão foi um espaço seguro de diálogo e acolhimento.",
+    q: "Desde o primeiro contato sentimos segurança e profissionalismo. A organização foi impecável e pudemos aproveitar nossa festa sem nos preocupar com nada.",
     a: "Ana Costa Assis",
-    r: "Paciente · Ipatinga",
+    r: "Aniversário de 15 anos · Santa Luzia/MG",
   },
   {
-    q: "O atendimento é extremamente profissional e humano. Recomendo a qualquer pessoa que esteja buscando apoio psicológico sério e responsável.",
+    q: "Criatividade, bom gosto e atenção aos mínimos detalhes. Recebemos inúmeros elogios dos convidados e viveríamos tudo novamente.",
     a: "Carlos Augusto Pereira",
-    r: "Paciente· Coronel Fabriciano",
+    r: "Evento Corporativo · Belo Horizonte/MG",
   },
   {
-    q: "O atendimento foi acolhedor desde o primeiro contato. Me senti ouvido e respeitado em todo o processo, o que fez muita diferença na minha evolução emocional.",
-    a: "Marcia Loureiro",
-    r: "Paciente· Estados Unidos",
+    q: "A equipe cuidou de toda a produção com muita dedicação. O resultado foi uma celebração sofisticada, emocionante e inesquecível para nossa família.",
+    a: "Márcia Loureiro",
+    r: "Casamento · Estados Unidos",
   },
   {
-    q: "Encontrei um espaço seguro para falar sobre questões que vinha guardando há anos. A escuta foi atenta e sem julgamentos, algo essencial para mim.",
+    q: "Organização impecável, fornecedores de qualidade e um atendimento extremamente atencioso. Foi muito além do que imaginávamos.",
     a: "Sara Medeiros",
-    r: "Paciente· Portugal",
+    r: "Evento Particular · Portugal",
   },
   {
-    q: "O acompanhamento foi muito profissional e ao mesmo tempo humano. Me ajudou a organizar pensamentos e lidar melhor com a ansiedade do dia a dia.",
+    q: "Cada detalhe refletia nosso estilo e personalidade. A Mel Mesquita transformou nossas ideias em um evento elegante e memorável.",
     a: "Guilherme Andrade",
-    r: "Paciente· Santa Catarina",
+    r: "Formatura · Espanha",
   },
 ];
 
@@ -90,8 +90,8 @@ function Clientes() {
 
       <PageHeader
         eyebrow="— 04 / Clientes"
-        title="O que dizem sobre a atuação da Mel Mesquita."
-        intro="Clientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Mel Mesquita."
+        title="Momentos inesquecíveis contados por quem viveu essa experiência."
+        intro="Conheça os relatos de clientes que confiaram à Mel Mesquita a missão de transformar seus sonhos em celebrações únicas, elegantes e memoráveis."
       />
 
       <section className="bg-zinc-50 dark:bg-zinc-900/40 py-12 sm:py-16 lg:py-28 text-zinc-900 dark:text-zinc-50 transition-colors duration-300">
