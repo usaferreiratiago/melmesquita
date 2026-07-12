@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Check, ArrowLeft } from "lucide-react";
-import aboutImg from "@/assets/psicology.jpg";
+import aboutImg from "@/assets/about-blueprint.jpg";
 import { PageHeader } from "@/components/page-header";
 
 // Importação da logo utilizando o caminho relativo do projeto
