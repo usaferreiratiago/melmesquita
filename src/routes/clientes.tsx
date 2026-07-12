@@ -9,19 +9,19 @@ import logoImg from "@/assets/melmesquita.png";
 export const Route = createFileRoute()({
   head: () => ({
     meta: [
-      { title: "Pacientes — Mel Mesquita" },
+      { title: "Clientes — Mel Mesquita" },
       {
         name: "description",
-        content: "Depoimentos de pacientes atendidos pela Mel Mesquita.",
+        content: "Depoimentos de Clientes atendidos pela Mel Mesquita.",
       },
-      { property: "og:title", content: "Pacientes — Mel Mesquita" },
+      { property: "og:title", content: "Clientes — Mel Mesquita" },
       {
         property: "og:description",
         content: "O que dizem sobre o atendimento da Mel Mesquita.",
       },
     ],
   }),
-  component: Pacientes,
+  component: Clientes,
 });
 
 const testimonials = [
@@ -57,7 +57,7 @@ const testimonials = [
   },
 ];
 
-function Pacientes() {
+function Clientes() {
   return (
     <div className="relative min-h-screen bg-white dark:bg-zinc-950 transition-colors duration-300 w-full overflow-x-hidden">
       {/* Barra superior de ações (Voltar + Logo) */}
@@ -89,9 +89,9 @@ function Pacientes() {
       </div>
 
       <PageHeader
-        eyebrow="— 04 / Pacientes"
+        eyebrow="— 04 / Clientes"
         title="O que dizem sobre a atuação da Mel Mesquita."
-        intro="Pacientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Mel Mesquita."
+        intro="Clientes, famílias e instituições que confiaram seus processos de cuidado à equipe de psicólogos da Mel Mesquita."
       />
 
       <section className="bg-zinc-50 dark:bg-zinc-900/40 py-12 sm:py-16 lg:py-28 text-zinc-900 dark:text-zinc-50 transition-colors duration-300">
