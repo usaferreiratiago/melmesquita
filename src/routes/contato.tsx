@@ -79,7 +79,7 @@ function Contato() {
         <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-zinc-100 dark:border-zinc-900 pb-6">
           {/* Botão Voltar para Tela Inicial */}
           <Link
-            to="/"
+            to=".."
             className="group inline-flex items-center justify-center sm:justify-start gap-2 text-sm font-medium text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50 transition-colors py-2 sm:py-0"
           >
             <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
@@ -166,7 +166,7 @@ function Contato() {
                     Horário de Atendimento
                   </div>
                   <div className="mt-1 font-display text-base sm:text-lg text-zinc-900 dark:text-zinc-200 space-y-0.5">
-                    <p>Segunda a Sexta: 14:30h às 19:00h</p>
+                    <p>Segunda a Sexta: 08:00h às 17:00h</p>
                   </div>
                 </div>
               </div>
@@ -181,28 +181,14 @@ function Contato() {
                     Endereço
                   </div>
                   <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
-                    Siqueira Maia, 599 - Centro -
+                    Rua X,00
                     <br />
-                    Cel. Fabriciano
+                    Santa Luzia
                     <br />
-                    MG — CEP 35170-024
-                  </div>
-                  <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
-                    Av. Castelo Branco, 762 - Horto
-                    <br />
-                    Ipatinga - MG
-                    <br />
-                    MG — CEP 35160-294
-                  </div>
-                  <div className="mt-1 font-display text-lg sm:text-xl leading-snug text-zinc-900 dark:text-zinc-200">
-                    R. Buritis, 105 - Loja 02 - Horto
-                    <br />
-                    Ipatinga - MG
-                    <br />
-                    MG — CEP 35160-321
+                    MG — CEP 00000-000
                   </div>
                   <div className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
-                    CNPJ 38.039.512/0001-34
+                    CNPJ 00.000.000/0000-00
                   </div>
                 </div>
               </div>
@@ -211,32 +197,8 @@ function Contato() {
             {/* Container do Mapa corrigido com link público funcional */}
             <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
               <iframe
-                title="Localização Insight Clínica"
-                src="https://www.google.com/maps?q=Rua+Rubens+Siqueira+Maia+599,+Coronel+Fabriciano,+MG&output=embed"
-                width="100%"
-                height="100%"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="h-full w-full border-0 dark:invert dark:grayscale dark:opacity-80 transition-all duration-300"
-                allowFullScreen
-              />
-            </div>
-            <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
-              <iframe
-                title="Localização Insight Clínica"
-                src="https://www.google.com/maps?q=Av.+Castelo+Branco,+762+-+Horto,+Ipatinga+-+MG,+35160-294&output=embed"
-                width="100%"
-                height="100%"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="h-full w-full border-0 dark:invert dark:grayscale dark:opacity-80 transition-all duration-300"
-                allowFullScreen
-              />
-            </div>
-            <div className="aspect-4/3 w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900 rounded-sm">
-              <iframe
-                title="Localização Insight Clínica"
-                src="https://www.google.com/maps?q=R.+Buritis,+105+-+Loja+02+-+Horto,+Ipatinga+-+MG,+35160-321&output=embed"
+                title="Localização - Santa Luzia, MG"
+                src="https://www.google.com/maps?q=Santa+Luzia,+Minas+Gerais,+Brasil&output=embed"
                 width="100%"
                 height="100%"
                 loading="lazy"

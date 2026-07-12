@@ -109,7 +109,7 @@ function Sobre() {
             {/* Grid de Benefícios/Tags */}
             <ul className="grid grid-cols-1 gap-3 pt-4 sm:grid-cols-2 target-list">
               {[
-                "CNPJ 38.039.512/0001-34.",
+                "CNPJ 00.000.000/0000-00.",
                 "Sede em Coronel Fabriciano/MG",
                 "CRP MG 36127",
                 "Equipe de psicólogos própria",

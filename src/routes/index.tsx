@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Psicologia em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa. CNPJ 38.039.512/0001-34..",
+          "Psicologia em MG, Vale do Aço e em todo o Brasil, Estados Unidos e Europa. CNPJ 00.000.000/0000-00..",
       },
       {
         property: "og:title",
