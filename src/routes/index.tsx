@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import heroImg from "@/assets/shirleypaschoal.jpg";
+import heroImg from "@/assets/melmesquita.jpg";
 
 // Rota adicionada explicitamente para resolver o erro do TS
 export const Route = createFileRoute("/")({
