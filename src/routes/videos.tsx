@@ -40,28 +40,16 @@ export const Route = createFileRoute()({
 // Mock configurado com os IDs dos vídeos (os títulos servem como fallback inicial)
 const allProjects = [
   {
-    youtubeId: "zuTv_UHpHAE",
-    type: "Serviços de Psicologia — Mel Mesquita",
+    youtubeId: "iOgXmM1SDJE",
+    type: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
     year: "",
-    url: "https://www.youtube.com/watch?v=zuTv_UHpHAE",
+    url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
   },
   {
-    youtubeId: "VB3fuorXuOg",
-    type: "Serviços de Psicologia — Mel Mesquita",
+    youtubeId: "iOgXmM1SDJE",
+    type: "Celebrações personalizadas e inesquecíveis — Mel Mesquita",
     year: "",
-    url: "https://www.youtube.com/watch?v=VB3fuorXuOg",
-  },
-  {
-    youtubeId: "QxIs9AUxSyY",
-    type: "Serviços de Psicologia — Mel Mesquita",
-    year: "",
-    url: "https://www.youtube.com/watch?v=QxIs9AUxSyY",
-  },
-  {
-    youtubeId: "XAtZe--6DVI",
-    type: "Serviços de Psicologia — Mel Mesquita",
-    year: "",
-    url: "https://www.youtube.com/watch?v=XAtZe--6DVI",
+    url: "https://www.youtube.com/watch?v=iOgXmM1SDJE",
   },
 ];
 
