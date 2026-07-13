@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import heroImg from "@/assets/melmesquita.jpg";
 
 // Rota adicionada explicitamente para resolver o erro do TS
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute()({
   head: () => ({
     meta: [
       { title: "Mel Mesquita — +15 anos de atendimento" },
