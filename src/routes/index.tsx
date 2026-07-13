@@ -211,6 +211,12 @@ function Home() {
               key={c.to}
               to={c.to}
               className="group flex items-start justify-between gap-6 border-t border-zinc-200 dark:border-zinc-800 pt-8 transition hover:border-zinc-900 dark:hover:border-zinc-50"
+              search={function (current: never): never {
+                throw new Error("Function not implemented.");
+              }}
+              params={function (current: never): never {
+                throw new Error("Function not implemented.");
+              }}
             >
               <div>
                 <div className="text-xs tabular-nums tracking-widest text-zinc-500 dark:text-zinc-400">
